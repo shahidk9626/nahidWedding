@@ -103,11 +103,25 @@ function App() {
       <main id="mainContent" className="hidden">
 
         {/* HERO */}
-        <section className="relative min-h-screen flex items-center justify-center">
+        <section className="relative min-h-screen flex items-center justify-center py-20">
 
           <div className="container mx-auto px-6">
 
             <div className="text-center">
+
+              {/* Special Quote & Family Blessing */}
+              <div className="max-w-3xl mx-auto mb-12 px-6 py-8 border border-yellow-500/10 rounded-3xl bg-white/[0.02] backdrop-blur-md shadow-2xl relative overflow-hidden" data-aos="fade-down">
+                <p className="font-[Cinzel] text-yellow-500/80 text-sm md:text-base tracking-[4px] uppercase mb-4">
+                  بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
+                </p>
+                <p className="font-[Great_Vibes] text-3xl md:text-4xl text-yellow-200 mb-4">
+                  With the blessings of Allah & the Sunnah of Prophet Mohammed
+                </p>
+                <div className="w-24 h-[1px] bg-gradient-to-r from-transparent via-yellow-500 to-transparent mx-auto my-4"></div>
+                <p className="font-[Cinzel] text-gray-300 uppercase tracking-[2px] text-xs md:text-sm max-w-xl mx-auto leading-relaxed">
+                  Grandson of <span className="text-yellow-400 font-semibold">Marhuma Hakiman Banu</span> & <span className="text-yellow-400 font-semibold">Mr. Latif Mohammed Pathan</span>
+                </p>
+              </div>
 
               <div className="mb-8">
                 <span className="gold-divider"></span>
