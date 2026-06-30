@@ -357,6 +357,10 @@ function App() {
                   Mohammed Saif
                 </div>
 
+                <div className="p-4 border border-yellow-500/10 rounded-xl bg-white/5 hover:border-yellow-500/30 transition-all duration-300">
+                  Ibrahim Pathan
+                </div>
+
               </div>
 
             </div>
