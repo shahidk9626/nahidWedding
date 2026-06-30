@@ -204,68 +204,72 @@ function App() {
 
             </div>
 
-            <div className="grid md:grid-cols-2 gap-10">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
 
-              {/* Event */}
-
+              {/* Haldi Ceremony */}
               <div className="event-card">
-
-                <div className="event-icon">
-                  🌼
-                </div>
-
+                <div className="event-icon">🌼</div>
                 <h3>Haldi Ceremony</h3>
-
                 <p>1 October</p>
+                <p className="text-yellow-400/90 text-sm mt-1">Time: 3:00 PM - 5:00 PM</p>
                 <p className="mt-2 text-yellow-500 font-bold text-sm tracking-wide">
                   Venue: ROYAL FARM HOUSE ASIND
                 </p>
-
               </div>
 
+              {/* Mahila Sangeet */}
               <div className="event-card">
-
-                <div className="event-icon">
-                  🎵
-                </div>
-
+                <div className="event-icon">🎵</div>
                 <h3>Mahila Sangeet</h3>
-
                 <p>1 October</p>
+                <p className="text-yellow-400/90 text-sm mt-1">Time: 9:00 PM - 12:00 AM</p>
                 <p className="mt-2 text-yellow-500 font-bold text-sm tracking-wide">
                   Venue: ROYAL FARM HOUSE ASIND
                 </p>
-
               </div>
 
+              {/* Mayra Khana */}
               <div className="event-card">
-
-                <div className="event-icon">
-                  👑
-                </div>
-
-                <h3>Barat & Nikah</h3>
-
+                <div className="event-icon">🥘</div>
+                <h3>Mayra Khana</h3>
                 <p>2 October</p>
+                <p className="text-yellow-400/90 text-sm mt-1">Time: 11:00 AM Onwards (Subh 11 Se)</p>
+                <p className="mt-2 text-yellow-500 font-bold text-sm tracking-wide">
+                  Venue: ROYAL FARM HOUSE ASIND
+                </p>
+              </div>
+
+              {/* Barat Rawangi */}
+              <div className="event-card">
+                <div className="event-icon">🥁</div>
+                <h3>Barat Rawangi</h3>
+                <p>2 October</p>
+                <p className="text-yellow-400/90 text-sm mt-1">Time: 3:00 PM</p>
+                <p className="mt-2 text-yellow-500 font-bold text-sm tracking-wide">
+                  Venue: ROYAL FARM HOUSE ASIND
+                </p>
+              </div>
+
+              {/* Nikah */}
+              <div className="event-card">
+                <div className="event-icon">👑</div>
+                <h3>Nikah</h3>
+                <p>2 October</p>
+                <p className="text-yellow-400/90 text-sm mt-1">Time: Between Asar & Maghrib (Asar Maghrib Ke Bich)</p>
                 <p className="mt-2 text-yellow-500 font-bold text-sm tracking-wide">
                   Venue: MILAN VATIKA ASIND
                 </p>
-
               </div>
 
+              {/* Walima Khana */}
               <div className="event-card">
-
-                <div className="event-icon">
-                  ✨
-                </div>
-
-                <h3>Walima</h3>
-
+                <div className="event-icon">✨</div>
+                <h3>Walima Khana</h3>
                 <p>3 October</p>
+                <p className="text-yellow-400/90 text-sm mt-1">Time: 5:30 PM Till Your Arrival (5:30 Se Apke Aane Tak)</p>
                 <p className="mt-2 text-yellow-500 font-bold text-sm tracking-wide">
                   Venue: ROYAL FARM HOUSE ASIND
                 </p>
-
               </div>
 
             </div>
